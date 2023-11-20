@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Archia Regular;
+    src: url('https://assets.zyrosite.com/meP0q0yleyu9xLn6/Archia Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Argon Regular;
+    src: url('https://assets.zyrosite.com/meP0q0yleyu9xLn6/Argon Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url('https://assets.zyrosite.com/meP0q0yleyu9xLn6/Gotham Black Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Harabara;
+    src: url('https://assets.zyrosite.com/meP0q0yleyu9xLn6/Harabara Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+
+
+
+body {
+    /* Establece la imagen de fondo y configura las propiedades necesarias */
+    background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/meP0q0yleyu9xLn6/libertadorgralsanmartin-m2Wbn16NpNToBVg5.jpeg') !important; 
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important; /* Esto mantiene la imagen fija mientras se desplaza la página */
+}
+
+/*---- TABLE ----*/
+/*### TABLA CUSTOMIZADA ####*/
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(240, 218, 218, 0.15); 
+    border: 1px solid #000; /* Borde de la tabla */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .custom-table th, .custom-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000; /* Borde de las celdas */
+  }
+
+  .custom-table thead {
+    background-color: rgba(100, 55, 126, 0.7); /* Color de fondo del encabezado */
+    color: white;
+  }
+
+  .custom-table tbody tr:nth-child(even) {
+    background-color: rgba(173, 169, 169, 0.3); /* Color de fondo de filas pares */
+  }
+
+  .custom-table tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.3); /* Color de fondo de filas impares */
+  }
+
+/*##### acciones #####*/
+.td-acciones {
+    width: 10%;
+}
+
+/*----- FUENTES -----*/
+
+.libertador{
+    font-family: 'Harabara', sans-serif;
+}
+
+.texto-normal{
+    font-family: 'Archia Regular', sans-serif;
+}
+
+.texto-normal-i{
+    font-family: 'Archia Regular', sans-serif;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.texto-tarjeta{
+    font-family: 'Gotham', sans-serif;
+    color: black;
+}
+
+.texto-blanco-bold{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.texto-claro-bold{
+    font-weight: bold;
+    color: #794996;
+}
+
+.texto-oscuro-bold{
+    font-weight: bold;
+    color: #1f0033;
+}
+
+.texto-negro-bold{
+    font-weight: bold;
+    color: #000000;
+}
+
+/*----- BOTONES -----*/
+
+/*##### BOTON VIOLETA ######*/
+.btn-violeta {
+    font-weight: 600;
+    color: black;
+    background-color: #a67db8;
+    border: 1px solid #a67db8;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+/* Estilo para el estado hover del botón */
+.btn-violeta:hover {
+    color: #ffffff; /* color blanco */
+    background-color: #7d3c98; /* violeta */
+    border-color: #7d3c98; /* violeta */
+}
+
+/* Estilo para el estado enfocado del botón */
+.btn-violeta:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(125, 60, 152, 0.5); /* sombra violeta en el foco */
+}
+
+/* Estilo para el estado activo del botón */
+.btn-violeta:active {
+    color: #ffffff; /* color blanco */
+    background-color: #693074; /* violeta oscuro */
+    border-color: #693074; /* violeta oscuro */
+}
+
+/*##### BOTON VER ######*/
+.btn-ver {
+    font-weight: 400;
+    color: white;
+    background-color: #693074;
+    border: 1px solid #693074;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    width: auto;
+    height: 10%;
+}
+
+/* Estilo para el estado hover del botón */
+.btn-ver:hover {
+    color: black; /* color blanco */
+    background-color: #a67db8; /* violeta */
+    border-color: #a67db8; /* violeta */
+}
+
+/* Estilo para el estado enfocado del botón */
+.btn-ver:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(125, 60, 152, 0.5); /* sombra violeta en el foco */
+}
+
+/* Estilo para el estado activo del botón */
+.btn-ver:active {
+    color: #ffffff; /* color blanco */
+    background-color: #693074; /* violeta oscuro */
+    border-color: #693074; /* violeta oscuro */
+}
+
+/*##### BOTON EDITAR ######*/
+.btn-editar {
+    font-weight: 400;
+    color: black;
+    background-color: #b4b87d;
+    border: 1px solid #97a354;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    width: auto;
+    height: 50%;
+}
+
+/* Estilo para el estado hover del botón */
+.btn-editar:hover {
+    color: #ffffff; /* color blanco */
+    background-color: #97a354; /* violeta */
+    border-color: #97a354; /* violeta */
+}
+
+/* Estilo para el estado enfocado del botón */
+.btn-editar:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(125, 60, 152, 0.5); /* sombra violeta en el foco */
+}
+
+/* Estilo para el estado activo del botón */
+.btn-editar:active {
+    color: #ffffff; /* color blanco */
+    background-color: #693074; /* violeta oscuro */
+    border-color: #693074; /* violeta oscuro */
+}
+
+
+/*##### BOTON TRANSPARENTE ######*/
+.btn-trans {
+    font-weight: 600;
+    color: white;
+    background-color: rgba(166, 125, 184, 0.5); /* Violeta con 50% de transparencia */
+    border: 1px solid rgba(166, 125, 184, 0.5); /* Borde con 50% de transparencia */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+/* Estilo para el estado hover del botón */
+.btn-trans:hover {
+    color: #ffffff; /* color blanco */
+    background-color: rgba(125, 60, 152, 0.7); /* Violeta con 70% de transparencia en hover */
+    border-color: rgba(125, 60, 152, 0.7); /* Borde con 70% de transparencia en hover */
+}
+
+/* Estilo para el estado enfocado del botón */
+.btn-trans:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(125, 60, 152, 0.5); /* sombra violeta en el foco */
+}
+
+/* Estilo para el estado activo del botón */
+.btn-trans:active {
+    color: #ffffff; /* color blanco */
+    background-color: rgba(105, 48, 116, 0.7); /* Violeta oscuro con 70% de transparencia en active */
+    border-color: rgba(105, 48, 116, 0.7); /* Borde con 70% de transparencia en active */
+}
+
+	
+		
